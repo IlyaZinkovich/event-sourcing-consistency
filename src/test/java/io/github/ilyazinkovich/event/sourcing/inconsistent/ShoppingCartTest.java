@@ -1,11 +1,8 @@
-package io.github.ilyazinkovich.event.sourcing;
+package io.github.ilyazinkovich.event.sourcing.inconsistent;
 
 import static java.util.stream.IntStream.range;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import io.github.ilyazinkovich.event.sourcing.inconsistent.AddProduct;
-import io.github.ilyazinkovich.event.sourcing.inconsistent.EventStore;
-import io.github.ilyazinkovich.event.sourcing.inconsistent.ShoppingCart;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
